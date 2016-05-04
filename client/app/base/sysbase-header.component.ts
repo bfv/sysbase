@@ -12,7 +12,7 @@ export class SysbaseHeaderComponent implements OnInit {
     constructor() { 
         console.log("sysbase header constructor");
     }
-
+    
     ngOnInit() { }
 
 }

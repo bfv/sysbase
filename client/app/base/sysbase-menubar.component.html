@@ -1,3 +1,6 @@
 <div>
     <h2>menubar</h2>
+    <!--<sb-button [type]="buttonText"></sb-button>   text from value of component -->
+    <!--<sb-button type="hoppa"></sb-button>   fixed text (hoppa) -->
+    <sb-button btnId="btnEvent" type="event" (clicked)="onClick2($event);" text="test events" name="hopsakee"></sb-button>
 </div>
